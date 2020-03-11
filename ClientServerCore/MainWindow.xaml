@@ -1,0 +1,21 @@
+﻿<Window x:Class="ClientServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientServer"
+        mc:Ignorable="d"
+        Title="ClientServer" Height="600" Width="300">
+    <Grid>
+        <TextBox Name="textBoxInfo" HorizontalAlignment="Left" Margin="10,66,0,47" TextWrapping="Wrap" Width="272"/>
+        <TextBox Name="textboxIP" HorizontalAlignment="Left" Height="23" Margin="49,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="192.168.0.4"/>
+        <TextBox  Name="textboxPort" HorizontalAlignment="Left" Height="23" Margin="49,38,0,0" TextWrapping="Wrap" Text="12345" VerticalAlignment="Top" Width="120"/>
+        <Label Content="IP:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Port:" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top"/>
+        <Button Name="buttonStartServer" Content="Start Server" HorizontalAlignment="Left" Margin="191,527,0,0" VerticalAlignment="Top" Width="91" Height="32" Click="buttonStartServer_Click"/>
+        <Button x:Name="buttonStopServer" Content="Stop Server" HorizontalAlignment="Left" Margin="95,527,0,0" VerticalAlignment="Top" Width="91" Height="32" Click="buttonStopServer_Click"/>
+        <Label Content="Clients:" HorizontalAlignment="Left" Margin="174,10,0,0" VerticalAlignment="Top"/>
+        <Label Name="labelConnectedClients" Content="" HorizontalAlignment="Left" Margin="227,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonPing" Content="Ping" HorizontalAlignment="Left" Margin="10,527,0,0" VerticalAlignment="Top" Width="80" Height="32" Click="buttonPing_Click"/>
+    </Grid>
+</Window>
