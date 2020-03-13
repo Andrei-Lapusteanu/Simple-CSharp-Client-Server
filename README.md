@@ -5,8 +5,11 @@
 # Technologies
 - Written exclusively in **C#** with the help of the **System.Net.Sockets** namespace
 - UI written in **WPF**
-# Project Webpage
-https://andrei-lapusteanu.github.io/Simple-CSharp-Client-Server/
+
+# Functionality
+- Software allows starting a **local server** on a user defined **socket (IP + port)**
+- The 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzMwOTYzNCwtMTAyMTAzNTA0NF19
+eyJoaXN0b3J5IjpbLTEwNzkwNDUxNTcsLTEwMjEwMzUwNDRdfQ
+==
 -->
