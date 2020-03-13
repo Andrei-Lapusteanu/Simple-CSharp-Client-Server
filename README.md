@@ -10,7 +10,6 @@
 - Software allows starting a **local server** on a user defined **socket (IP + port)**
 - The **client handler** allows multiple concurrent client connections to the server
 - Being a very simple implementation, client can connect to the server, for example, using **PuTTY**, and the messages sent will appear inside the main text box
-- Messages from clients will appear in the text box
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzMwNTU2MSwtMTAyMTAzNTA0NF19
+eyJoaXN0b3J5IjpbLTQzNTk3NDY4MSwtMTAyMTAzNTA0NF19
 -->
